@@ -1,0 +1,28 @@
+.iconContainer {
+    height: 28.8;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.icon {
+    color: var(--black);
+    transition: transform .2s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.twitter:hover {
+    color: var(--twitter);
+}
+
+.linkedin:hover {
+    color: var(--linkedin);
+}
+
+.github:hover {
+    color: var(--github);
+}
